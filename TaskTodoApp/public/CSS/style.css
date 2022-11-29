@@ -1,3 +1,8 @@
+#container{
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+}
 .title_box{
     padding: 5px;
     text-align: center;
@@ -12,3 +17,19 @@
 .list_todo{
     background-color: rgb(225, 225, 222);
 }
+.form-control{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.input-group-text{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.list_todo{
+    padding: 10px;
+    background-image:url(../images/achieve.jpg);
+    background-position:center;
+    background-repeat:repeat-y;
+    opacity: 0.8;
+}
+        
