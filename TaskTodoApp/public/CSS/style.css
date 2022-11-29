@@ -6,12 +6,12 @@
 .title_box{
     padding: 5px;
     text-align: center;
-    color: rgb(95, 156, 61);
-    background-color: rgb(221, 221, 255);
+    color: rgb(114, 184, 77);
+    background-color: rgb(223, 223, 255);
 }
 .add_task{
     height: 12vh;
-    background-color: beige;
+    /* background-color: beige; */
     padding: 10px;
 }
 .list_todo{
@@ -30,6 +30,17 @@
     background-image:url(../images/achieve.jpg);
     background-position:center;
     background-repeat:repeat-y;
-    opacity: 0.8;
+    opacity: 0.7;
 }
-        
+.inProgress{
+    padding: 10px;
+    background-color:rgb(223, 223, 255);
+}
+#basic-addon2{
+    background-color: rgb(240, 101, 101);
+    color: rgb(248, 248, 248);
+}
+#basic-addon21{
+    color: black;
+    background-color: rgb(249, 249, 160);
+}
