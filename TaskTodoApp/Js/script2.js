@@ -80,6 +80,7 @@ const render = () => {
             </div>
 
             {/* Showing List of Todoes */}
+            {arrList.length >0 &&
             <div className="list_todo">
                 {arrList.map((list) => {
                     return <div class="input-group mb-3">
@@ -99,7 +100,7 @@ const render = () => {
                     </div>
                 })}
             </div>
-
+            }
             {/* Showing inProgressList */}
             <div className="inProgress">
                 {inProgress.map((list1) => {
